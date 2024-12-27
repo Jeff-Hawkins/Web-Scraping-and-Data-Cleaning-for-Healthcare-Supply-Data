@@ -1,0 +1,27 @@
+Requirements Section
+
+To run this project, ensure you have the following:
+
+1. Python Environment
+	•	Python 3.8 or higher
+
+2. Required Libraries
+
+Install the following Python libraries using pip:
+
+pip install requests beautifulsoup4 pandas openpyxl
+
+3. Input Data
+	•	An Excel file containing the datasets to be processed. The file should have two sheets:
+	•	Summary - Bulk
+	•	Summary - PPD
+	•	Each sheet should contain the following columns:
+	•	Item # or Item No.: Unique item identifiers.
+	•	Mfr Name: Manufacturer name.
+	•	Mfr #: Manufacturer item number.
+
+4. Network Access
+	•	Ensure you have internet access to scrape data from the McKesson website.
+
+5. File Paths
+	•	Update the paths in the script (input_file, output paths like Combined_Data.xlsx, Updated_Mfg_Name_Search.xlsx, etc.) to match your local or desired directory structure.
